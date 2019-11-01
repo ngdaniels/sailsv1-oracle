@@ -28,7 +28,7 @@
   "author": "",
   "dependencies": {
     "async": "^1.4.2",
-    "lodash": "~3.10.0",
+    "lodash": "~4.17.15",
     "oracledb": "^4.0.1",
     "underscore": "^1.8.3",
     "underscore.string": "^3.1.1",
