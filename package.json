@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      "git+https://github.com/ngdaniels/sails-oracle-database.git",
+      "C:\\Workspace\\test-sails-oracle"
+    ]
+  ],
+  "_from": "git+https://github.com/ngdaniels/sails-oracle-database.git",
+  "_id": "sails-oracle-database@git+https://github.com/ngdaniels/sails-oracle-database.git#653eeabe3d5ecbaa9f5e145ed85eaf83cad0dc67",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/sails-oracle-database",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/ngdaniels/sails-oracle-database.git",
+    "rawSpec": "git+https://github.com/ngdaniels/sails-oracle-database.git",
+    "saveSpec": "git+https://github.com/ngdaniels/sails-oracle-database.git",
+    "fetchSpec": "https://github.com/ngdaniels/sails-oracle-database.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/ngdaniels/sails-oracle-database.git#653eeabe3d5ecbaa9f5e145ed85eaf83cad0dc67",
+  "_spec": "git+https://github.com/ngdaniels/sails-oracle-database.git",
+  "_where": "C:\\Workspace\\test-sails-oracle",
+  "author": "",
+  "dependencies": {
+    "async": "^1.4.2",
+    "lodash": "~3.10.0",
+    "oracledb": "^4.0.1",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.1.1",
+    "waterline-errors": "~0.10.0",
+    "waterline-sequel": "git+https://github.com/ngdaniels/waterline-sequel.git",
+    "waterline-sql-builder": "1.0.0"
+  },
+  "description": "Oracle Database adapter for Sails.js.",
+  "devDependencies": {
+    "captains-log": "~0.11.5",
+    "mocha": "~1.13.0",
+    "waterline-adapter-tests": "~0.10.0"
+  },
+  "keywords": [
+    "orm",
+    "waterline",
+    "oracle",
+    "oracledb",
+    "sails",
+    "oracle-database",
+    "sails-oracle-database",
+    "sails-oracle",
+    "sails-oracledb",
+    "sailsjs",
+    "sails.js"
+  ],
+  "license": "MIT",
+  "main": "lib/adapter.js",
+  "name": "sails-oracle-database",
+  "version": "0.4.3",
+  "waterlineAdapter": {
+    "waterlineVersion": "~0.10.0",
+    "interfaces": [
+      "semantic",
+      "queryable",
+      "associations"
+    ]
+  }
+}
